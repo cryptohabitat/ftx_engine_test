@@ -1,0 +1,19 @@
+{
+  "name": "ftx_test_engine",
+  "version": "1.0.0",
+  "description": "This is a test engine developed in late 2020 to connect a (test) web app in order to allow advance order execution, as chase orders (limit orders that chase or ammend the price to be as close as last price possible until they are filled), best price (limit orders placed as best bid/ask price possible) and TWAP orders (alreeady deprecated cause FTX has implemented TWAP orders in their end)",
+  "main": "newIndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David P, 2021",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1",
+    "ws": "^8.2.3"
+  }
+}
